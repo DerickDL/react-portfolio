@@ -12,7 +12,7 @@ const About = () => {
         setIsInView(true);
         return {};
       }}
-      viewport={{ once: true, amount: 0.8 }}
+      viewport={{ once: true, amount: 0.5 }}
     >
       <div className="border-b border-neutral-900 pb-4">
         <motion.h2
